@@ -133,6 +133,13 @@ margin-bottom: 29px;
         margin-top: 20px;
         text-align: center;
     }
+    /* featured flower */
+    .flower-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .flower3{
+        padding: 0px;
+    }
 }
 
 /* responsive for tablet devices */
@@ -147,5 +154,19 @@ margin-bottom: 29px;
         text-align: center;
         align-items: center;
         max-width: none;
+    }
+    .featured-info{
+        text-align: center;
+    }
+    .flower-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .featured-info{
+        text-align: center;
+    }
+    .flower-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
