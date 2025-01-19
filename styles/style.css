@@ -58,3 +58,34 @@ margin-bottom: 29px;
 .header-btn{
     padding: 18px 38px;
 }
+
+
+
+
+
+/* make responsive for mobile devices */
+@media screen and (max-width:576px) {
+    .header-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-info{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* responsive for tablet devices */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header-container{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .header-info{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        max-width: none;
+    }
+}
